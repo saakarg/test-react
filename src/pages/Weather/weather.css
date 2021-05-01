@@ -1,0 +1,26 @@
+.weather-wrapper {
+  flex-direction: column;
+}
+.location {
+  margin: 1.75rem 0;
+}
+.temp {
+  display: inline-block;
+  font-size: 115px;
+  font-weight: bold;
+  position: relative;
+  margin: 0.7rem 0 2rem;
+}
+.celcius-icon {
+  position: absolute;
+  top: -13%;
+  left: 80%;
+}
+svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg path {
+  fill: var(--color);
+}
